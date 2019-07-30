@@ -3,6 +3,7 @@ import axios from 'axios';
 import Header from './components/Header';
 import Show from './components/Show';
 import Index from './components/Index';
+import Landing from './components/Landing';
 
 import './App.css';
 import {
@@ -20,10 +21,8 @@ class App extends React.Component {
       schoolList: INFO.schoolList
     
     }
-  state = {
-    schools: []
   }
-  
+
   render() {
     return (
       <Router>
