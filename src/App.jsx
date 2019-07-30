@@ -31,12 +31,21 @@ class App extends React.Component {
             <div className='container'>
               <Header />
               <Landing />
-              {/* <Route exact path='/index' render={props => (
-              <Index schools={this.state.schools} />
-              )} /> */}
-            </div>
-            <Route path='/schools/:id' 
-                render={(props) => <Show schoolList={this.state.schoolList} />} />
+              <Route path='/schools/district' 
+                  render={props => ( 
+              <div>
+                <Index schools={this.state.schools} />
+              </div>
+              )} />
+              
+              <Route path='/schools/schoolshow.id' 
+                  render={props => ( 
+              <div>
+                <Show schools={this.state.schools} />
+              </div>
+              )} />
+
+            </div> 
           </div>
         </>
       </Router>
