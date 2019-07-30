@@ -12,7 +12,7 @@ class ShowWestSeattle extends Component {
             <Link to='/' className='index-link'>Home</Link>
             <Link to='/schools/district' className='index-link'>Back</Link>
             <div className="avatar">
-               <Avatar src="https://unsplash.com/photos/Xy-F5GptgR8" name="School" value="86%" size={150} round="20px" />
+               <Avatar src="https://unsplash.com/photos/Xy-F5GptgR8" name="West Seattle Elementary" value="86%" size={150} round="20px" />
             </div>
             <div className="detailsContainer">
                <div className='schoolName'>
@@ -38,6 +38,8 @@ class ShowWestSeattle extends Component {
                </div>
                   <div className='schoolReviews'>
                      <h2>Reviews</h2>
+                     <h4>-"Really great school for little ones to make friends. Great cooperative environment!"
+                     </h4>
                   </div>
                
             </div>

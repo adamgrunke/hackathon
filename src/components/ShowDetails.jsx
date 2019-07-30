@@ -6,9 +6,9 @@ function ShowDetails() {
       
       
       <div className='schoolInfo'>
-         Address: 
-         Phone:
-         Student Count:
+         <div>Address: </div>
+         <div>Phone: </div>
+         <div>Student Count: </div>
       </div>
       
 
