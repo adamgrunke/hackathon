@@ -1,0 +1,50 @@
+{
+    "westSeattleElem":
+        {
+            "status": 1,
+            "walkscore": 59,
+            "description": "Somewhat Walkable",
+            "updated": "2019-05-15 00:39:49.948156",
+            "logo_url": "https://cdn.walk.sc/images/api-logo.png",
+            "more_info_icon": "https://cdn.walk.sc/images/api-more-info.gif",
+            "more_info_link": "https://www.redfin.com/how-walk-score-works",
+            "ws_link": "https://www.walkscore.com/score/loc/lat=47.541686/lng=-122.373986/?utm_source=onoroff.xyz &utm_medium=ws_api&utm_campaign=ws_api",
+            "help_link": "https://www.redfin.com/how-walk-score-works",
+            "snapped_lat": 47.5410,
+            "snapped_lon": -122.3745,
+            "transit": {
+                "score": null,
+                "description": null,
+                "summary": null
+            },
+            "bike": {
+                "score": 52,
+                "description": "Bikeable"
+            }
+        },
+
+        "hawthorneElem": 
+            {
+                "status": 1,
+                "walkscore": 75,
+                "description": "Very Walkable",
+                "updated": "2019-05-18 04:37:38.610987",
+                "logo_url": "https://cdn.walk.sc/images/api-logo.png",
+                "more_info_icon": "https://cdn.walk.sc/images/api-more-info.gif",
+                "more_info_link": "https://www.redfin.com/how-walk-score-works",
+                "ws_link": "https://www.walkscore.com/score/loc/lat=47.565769/lng=-122.283372/?utm_source=onoroff.xyz &utm_medium=ws_api&utm_campaign=ws_api",
+                "help_link": "https://www.redfin.com/how-walk-score-works",
+                "snapped_lat": 47.5665,
+                "snapped_lon": -122.2830,
+                "transit": {
+                    "score": null,
+                    "description": null,
+                    "summary": null
+                },
+                "bike": {
+                    "score": 75,
+                    "description": "Very Bikeable"
+                }
+            }   
+    
+}
