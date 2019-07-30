@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Landing = (props) => (
     <div>
         <h2>Select your school district</h2>
-        <select>
-            <option value="seattle">Seattle</option>
-            <option value="redmond">Redmond</option>
-            <option value="kirkland">Kirkland</option>
-            <option value="bellevue">Bellevue</option>
-            <option value="edmonds">Edmonds</option>
-        </select>
+        <div>
+            <Link to='/schools/district'>Seattle</Link><br/>
+            <Link to='/schools/district'>Redmond</Link><br/>
+            <Link to='/schools/district'>Kirkland</Link><br/>
+            <Link to='/schools/district'>Bellevue</Link><br/>
+            <Link to='/schools/district'>Edmonds</Link>
+        </div>
     </div>
 );
 
