@@ -41,10 +41,12 @@ header {
   display: grid;
 }
 .schoolName {
-   
+   padding-left: 280px;
+   padding-bottom: 30px;
 }
 .schoolRating {
-  
+  padding-left: 960px;
+  padding-bottom:500px;
 }
 .schoolRatio {
   
@@ -58,7 +60,15 @@ header {
 .schoolInfo {
   border: 1px solid black;
 }
+.avatar {
+  /* border: 1px solid black; */
+  background-color: lightgray;
+  padding: 20px; 
 
+}
+.sb-avatar {
+  padding: 80px;
+}
 .link-style1 {
   background-color: lightgrey;
   border: 1px solid lightgrey;
