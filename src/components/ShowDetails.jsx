@@ -4,8 +4,11 @@ function ShowDetails() {
    return (
       <>
       
+      
       <div className='schoolInfo'>
-         <h2>Basic Information:</h2>
+         Address: 
+         Phone:
+         Student Count:
       </div>
       
 

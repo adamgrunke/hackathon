@@ -18,14 +18,18 @@ class Show extends Component {
                <div className='schoolRating'>
                   <h2>Rating   4.3 / 5</h2>
                </div>
+               <div className="basic">
+               <h2>Basic Information:</h2></div>
+               <div className="all">
                < ShowDetails />
                <div className= "sidebar">
                   <div className='schoolWalk'>
                      <h3>Walk Score</h3>
                   </div>
                   <div className='schoolRatio'>
-                     <h3>Pupil-Teacher Ratio</h3>
+                     <h3>Teacher Ratio</h3>
                   </div>
+               </div>
                </div>
                   <div className='schoolReviews'>
                      <h2>Reviews</h2>
