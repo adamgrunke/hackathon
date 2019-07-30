@@ -1,5 +1,5 @@
 import React from 'react';
-import IndexShow from './components/IndexShow';
+//import IndexShow from './components/IndexShow';
 import PropTypes from 'prop-types';
 
 class Index extends React.Component {

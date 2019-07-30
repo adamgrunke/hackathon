@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Header from './components/Header';
 import Show from './components/Show';
+import Index from './components/Index';
 
 import './App.css';
 import {
