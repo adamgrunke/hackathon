@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import Header from './components/Header';
+import Index from './components/Index';
+import Landing from './components/Landing';
 
 import './App.css';
 import {
@@ -12,8 +14,9 @@ import {
 
 class App extends React.Component {
   state = {
-
+    schools: []
   }
+  
   render() {
     return (
       <Router>
@@ -21,6 +24,10 @@ class App extends React.Component {
           <div className="App">
             <div className='container'>
               <Header />
+              <Landing />
+              {/* <Route exact path='/index' render={props => (
+              <Index schools={this.state.schools} />
+              )} /> */}
             </div>
           </div>
         </>
