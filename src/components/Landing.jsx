@@ -13,4 +13,4 @@ const Landing = (props) => (
     </div>
 );
 
-export default React;
+export default Landing;

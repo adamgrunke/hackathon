@@ -5,15 +5,12 @@ function Header() {
   return (
     <header>
       <div className='header-style'>
-        <h1 >Home District</h1>
+        <h1>Home District</h1>
       </div> 
-      <div className='link-style'>
-      <Link to="/">Home</Link> 
-        <Link to='/' to="About">About</Link>
-        <Link to="/">Log In</Link>
-        <Link to="/">Sign up</Link> 
-        <Link to="/schools/:id">Schools</Link> 
-
+      <div className='align'>
+        <Link className='link-style' to='/about'>About</Link>
+        <Link className='link-style' to="/">Log In</Link>
+        <Link className='link-style1' to="/">Sign up</Link>
       </div>
     </header>
   )

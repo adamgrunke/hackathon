@@ -21,13 +21,21 @@ header {
 .header-style {
   color: #fff;
   text-align: left;
-  padding: 10px;
+  width: 40%;
+  height: 60%;
+}
+
+.align {
+  text-align: right;
+  vertical-align: center;
+  width: relative;
 }
 
 .link-style {
-  text-align: right;
+  padding: 15px;
   color: #fff;
   text-decoration: none; 
+  
 }
 .detailsContainer {
   display: grid;
@@ -51,4 +59,11 @@ header {
   border: 1px solid black;
 }
 
+.link-style1 {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none; 
+}
 

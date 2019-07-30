@@ -19,7 +19,10 @@ class App extends React.Component {
       schoolList: INFO.schoolList
     
     }
+  state = {
+    schools: []
   }
+  
   render() {
     return (
       <Router>
@@ -27,6 +30,10 @@ class App extends React.Component {
           <div className="App">
             <div className='container'>
               <Header />
+              <Landing />
+              {/* <Route exact path='/index' render={props => (
+              <Index schools={this.state.schools} />
+              )} /> */}
             </div>
             <Route path='/schools/:id' 
                 render={(props) => <Show schoolList={this.state.schoolList} />} />
