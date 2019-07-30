@@ -16,11 +16,23 @@ class Index extends React.Component {
         <Link to='/' className='index-link'>Home</Link>
         <h1>Hello You</h1>
         <div>
-            <Link to='/schools/schoolshow.id'>Seattle</Link>
-            <Link to='/schools/schoolshow.id'>Redmond</Link>
-            <Link to='/schools/schoolshow.id'>Kirkland</Link>
-            <Link to='/schools/schoolshow.id'>Bellevue</Link>
-            <Link to='/schools/schoolshow.id'>Edmonds</Link>
+            <div>
+            <Link to='/schools/seattle/hawthorne'>
+              <h1>Hawthorne</h1>
+            </Link>
+            <Link to='/schools/seattle/westel'>
+              <h1>West Seattle Elementary</h1>
+            </Link>
+            <Link to='/schools/seattle'>
+              <h1>Seattle3</h1>
+            </Link>
+            <Link to='/schools/seattle'>
+              <h1>Seattle4</h1>
+            </Link>
+            <Link to='/schools/seattle'>
+              <h1>Seattle5</h1>
+            </Link>
+            </div>
         </div>
         {/* <IndexShow key={school.district} 
                   school={school}  */}
