@@ -5,7 +5,7 @@ import Avatar from 'react-avatar';
 
 
 
-class Show extends Component {
+class ShowWestSeattle extends Component {
    render() {
       return (
          <>
@@ -46,4 +46,4 @@ class Show extends Component {
    }
 }
 
-export default Show
+export default ShowWestSeattle
