@@ -48,25 +48,28 @@ header {
 }
 .all {
   display: flex;
+  margin-left: 250px;
 
 }
 .basic {
-  padding-left: 250px;
+  padding-left: 300px;
 }
 .sidebar {
-  margin: 0  150px 0 0;
+  margin: 0  145px 0 50px;
+  display: flex;
+ 
 }
 .schoolInfo {
-  padding-left: 100px;
+  padding-left: 200px;
   background-color: lightgray;
   padding-bottom: 250px;
   /* width: 490px;
   margin: 20px 400px; */
   border-radius: 15px;
   flex: 1;
-  min-width: 250px;
+  min-width: 350px;
   min-height: 50px;
-  margin: 20px 200px;
+  margin: 20px 0px 20px 80px;
 }
 .schoolWalk {
   
@@ -79,7 +82,7 @@ header {
   flex: 1;
   min-width: 50px;
   min-height: 50px;
-  margin: 20px 200px;
+  margin: 20px 20px 20px 100px;
 }
 .schoolRatio {
   
@@ -92,7 +95,7 @@ header {
   flex: 1;
   min-width: 50px;
   min-height: 50px;
-  margin: 20px 200px;
+  margin: 20px 350px 20px 20px;
   
 }
 
@@ -106,7 +109,7 @@ header {
   background-color: lightgray;
   padding-bottom: 250px;
   width: 980px;
-  margin: 20px 200px;
+  margin-left: 330px;
   border-radius: 15px;
 }
 .sb-avatar {
