@@ -3,7 +3,7 @@ import IndexShow from './IndexShow';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-class Index extends React.Component {
+class IndexSeattleDist extends React.Component {
   state = {
     school: []
   }
@@ -17,10 +17,10 @@ class Index extends React.Component {
         <h1>Hello You</h1>
         <div>
             <Link to='/schools/schoolshow.id'>Seattle</Link>
-            <Link to='/schools/schoolshow.id'>Redmond</Link>
-            <Link to='/schools/schoolshow.id'>Kirkland</Link>
-            <Link to='/schools/schoolshow.id'>Bellevue</Link>
-            <Link to='/schools/schoolshow.id'>Edmonds</Link>
+            <Link to='/schools/schoolshow.id'>Seattle1</Link>
+            <Link to='/schools/schoolshow.id'>Seattle2</Link>
+            <Link to='/schools/schoolshow.id'>Seattle3</Link>
+            <Link to='/schools/schoolshow.id'>Seattle4</Link>
         </div>
         {/* <IndexShow key={school.district} 
                   school={school}  */}
@@ -36,5 +36,5 @@ Index.propTypes = {
   schools: PropTypes.array.isRequired
 }
 
-export default Index;
+export default IndexSeattleDist;
 

@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Show from './components/Show';
 import Index from './components/Index';
 import Landing from './components/Landing';
+import ShowHawthorneElem from './components/ShowHawthorneElem';
+import ShowWestSeattleElem from './components/ShowWestSeattleElem';
+ 
 
 import './App.css';
 import {
@@ -45,7 +48,48 @@ class App extends React.Component {
               </div>
               )} />
               
-              <Route exact path='/schools/schoolshow.id' 
+              <Route exact path='/schools/seattle' 
+                  render={props => ( 
+              <div>
+                <Show schools={this.state.schools} />
+              </div>
+                  )}/>
+
+              <Route exact path='/schools/seattle/hawthorne' render={props => (
+                <div>
+                <ShowHawthorneElem schools={this.state.schools}/>
+                </div>
+              )} />
+
+              <Route exact path='/schools/seattle/westel' render={props => (
+                <div>
+                <ShowWestSeattleElem schools={this.state.schools}/>
+                </div>
+              )} />
+
+
+              <Route exact path='/schools/redmond' 
+                  render={props => ( 
+              <div>
+                <Show schools={this.state.schools} />
+              </div>
+              )} />
+
+              <Route exact path='/schools/kirkland' 
+                  render={props => ( 
+              <div>
+                <Show schools={this.state.schools} />
+              </div>
+              )} />
+
+              <Route exact path='/schools/bell' 
+                  render={props => ( 
+              <div>
+                <Show schools={this.state.schools} />
+              </div>
+              )} />
+
+              <Route exact path='/schools/edmonds' 
                   render={props => ( 
               <div>
                 <Show schools={this.state.schools} />
