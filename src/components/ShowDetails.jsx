@@ -2,10 +2,14 @@ import React from 'react'
 
 function ShowDetails() {
    return (
-      <div className='school-info'>
-         <h1 className='school-details'>School Info:</h1>
-         {props.school.name}
+      <>
+      
+      <div className='schoolInfo'>
+         <h2>Basic Information:</h2>
       </div>
+      
+
+      </> 
    )
 }
 

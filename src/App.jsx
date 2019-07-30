@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Header from './components/Header';
+import Show from './components/Show';
 
 import './App.css';
 import {
@@ -8,11 +9,16 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import INFO from './INFO';
 
 
 class App extends React.Component {
-  state = {
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      schoolList: INFO.schoolList
+    
+    }
   }
   render() {
     return (
@@ -22,6 +28,8 @@ class App extends React.Component {
             <div className='container'>
               <Header />
             </div>
+            <Route path='/schools/:id' 
+                render={(props) => <Show schoolList={this.state.schoolList} />} />
           </div>
         </>
       </Router>

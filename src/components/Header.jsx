@@ -8,9 +8,12 @@ function Header() {
         <h1 >Home District</h1>
       </div> 
       <div className='link-style'>
+      <Link to="/">Home</Link> 
         <Link to='/' to="About">About</Link>
         <Link to="/">Log In</Link>
         <Link to="/">Sign up</Link> 
+        <Link to="/schools/:id">Schools</Link> 
+
       </div>
     </header>
   )

@@ -1,7 +1,8 @@
-{
-   "numberOfSchools": 2913,
-      "numberOfPages": 292,
-         "schoolList": [
+
+
+
+const INFO = {
+         schoolList: [
             {
                "schoolid": "530486002475",
                "schoolName": "10th Street School",

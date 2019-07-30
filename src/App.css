@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
@@ -28,6 +28,27 @@ header {
   text-align: right;
   color: #fff;
   text-decoration: none; 
+}
+.detailsContainer {
+  display: grid;
+}
+.schoolName {
+   
+}
+.schoolRating {
+  
+}
+.schoolRatio {
+  
+}
+.schoolReviews {
+  border: 1px solid black; 
+}
+.sidebar {
+  border: 1px solid black;
+}
+.schoolInfo {
+  border: 1px solid black;
 }
 
 
