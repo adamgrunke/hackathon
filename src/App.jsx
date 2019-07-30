@@ -18,10 +18,12 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      schoolList: INFO.schoolList
+      schoolList: INFO.schoolList,
     
     }
   }
+
+  
 
   render() {
     return (
@@ -29,16 +31,21 @@ class App extends React.Component {
         <>
           <div className="App">
             <div className='container'>
+            <Route exact path='/' render={props => (
+              <div>
               <Header />
               <Landing />
-              <Route path='/schools/district' 
+              </div>
+            )}/>
+              <Route exact path='/schools/district' 
                   render={props => ( 
               <div>
+                <Header />
                 <Index schools={this.state.schools} />
               </div>
               )} />
               
-              <Route path='/schools/schoolshow.id' 
+              <Route exact path='/schools/schoolshow.id' 
                   render={props => ( 
               <div>
                 <Show schools={this.state.schools} />

@@ -1,6 +1,7 @@
 import React from 'react';
 import IndexShow from './IndexShow';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 class Index extends React.Component {
   state = {
@@ -11,7 +12,16 @@ class Index extends React.Component {
     // return this.props.schools.map( (school) => (
       return (
       <>
-        <h1>Hello</h1>
+      
+        <Link to='/' className='index-link'>Home</Link>
+        <h1>Hello You</h1>
+        <div>
+            <Link to='/schools/schoolshow.id'>Seattle</Link>
+            <Link to='/schools/schoolshow.id'>Redmond</Link>
+            <Link to='/schools/schoolshow.id'>Kirkland</Link>
+            <Link to='/schools/schoolshow.id'>Bellevue</Link>
+            <Link to='/schools/schoolshow.id'>Edmonds</Link>
+        </div>
         {/* <IndexShow key={school.district} 
                   school={school}  */}
                   
@@ -28,4 +38,3 @@ Index.propTypes = {
 
 export default Index;
 
-// import Index from './components/Index';

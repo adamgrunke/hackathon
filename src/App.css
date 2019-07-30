@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -77,3 +77,10 @@ header {
   text-decoration: none; 
 }
 
+.index-link {
+  color: black;
+}
+
+.school-name {
+  color: black;
+}

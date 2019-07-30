@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ShowDetails from './ShowDetails';
+import { Link } from 'react-router-dom';
 import Avatar from 'react-avatar';
 
 
@@ -8,6 +9,8 @@ class Show extends Component {
    render() {
       return (
          <>
+            <Link to='/' className='index-link'>Home</Link>
+            <Link to='/schools/district' className='index-link'>Back</Link>
             <div className="avatar">
                <Avatar src="https://unsplash.com/photos/Xy-F5GptgR8" name="School" value="86%" size={150} round="20px" />
             </div>
